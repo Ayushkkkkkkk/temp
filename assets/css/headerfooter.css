@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Trirong:wght@100;200;300;400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Catamaran', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    width:98.85vw;
+    scroll-behavior: smooth;
+}
+.header-top{
+    background-color: #0c5c9e;
+}
+.header-top a{
+    font-family:'Catamaran', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.header-top i{
+    background-color: #fff;
+    color: #3566c2;
+    border-radius: 50%;
+    margin-left: 5px;
+    padding:4px;
+    transition: 0.3s;
+}
+.header-top a:hover i{
+    background-color: #0c5c9e;
+    color: #fff;
+}
+header{
+    background: #fffd;
+    border-bottom: 1px solid #c0bfbf;
+}
+header ul li  a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+}
+nav img{
+    height:55px;
+    width:165px;
+    opacity: 0.7;
+    background:#fff;
+}
+
+footer{
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.footUnd{
+    margin-top: 5px;
+    height:1px;
+    width:100%;
+    background: linear-gradient(to right,#28282c,#d1d1d1,#28282c);
+    border-radius: 100%;
+}
+
+footer ul{
+    list-style-type: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fffd;
+}
+footer ul li {
+    line-height: 30px;
+}
+footer ul li a:hover{
+    color: #fffa;
+}
+.headg{
+    color: #fffe;
+}
+.underl{
+    width:50%;
+    height:1px;
+    background: #fff;
+    margin: 10px 0px;
+}
+input,.textareaf{
+    line-height: 15px;
+    border-radius: 15px;
+    font-size: 13px;
+}
+.submit_btn{
+    background: linear-gradient(#dfdfe4,rgb(205, 209, 223));
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border: none;
+}
+.submit_btn:hover{
+    background: linear-gradient(rgb(37, 37, 39),#dfdfe4,);
+}

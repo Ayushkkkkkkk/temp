@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #e6e6e6, #f5f5f5); /* Stylish linear gradient background */
+    color: #333; /* Text color */
+}
+
+.background-section {
+    max-width: 800px;
+    margin: 30px auto;
+    
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add box shadow for stylish effect */
+    background-color: #fff; /* Background color for content area */
+    border-radius: 10px; /* Add border-radius for rounded corners */
+}
+.background-section h1{
+    text-align: center;
+}
+
+.content{
+    margin-bottom: 60px;
+}
+
+.content h1{
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #4A148C; /* Stylish h1 text color */
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #4A148C; /* Stylish h2 text color */
+    margin-bottom: 10px;
+}
+
+.content p {
+    line-height: 1.6;
+}
+
+
+.company-profile {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.company-profile th,
+.company-profile td {
+    padding: 12px;
+    border: 1px solid #ddd;
+}
+
+.company-profile thead th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+
+.company-profile tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.company-profile tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
